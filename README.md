@@ -58,8 +58,8 @@ Se crearon las siguientes vistas:
 - Libros
 	- Editar
 	- Crear
-  ![image](https://user-images.githubusercontent.com/57508332/198154648-8d9f2d6d-b80a-41e6-8ae9-d3e63f4db544.png)
-  ![image](https://user-images.githubusercontent.com/57508332/198154666-c2932900-a9c5-4367-9f64-9e6bcf3d493a.png)
-  ![image](https://user-images.githubusercontent.com/57508332/198154685-1d2e7b4d-5713-43d5-9cee-aefc9090d99a.png)
+ ![image](https://user-images.githubusercontent.com/57508332/198154648-8d9f2d6d-b80a-41e6-8ae9-d3e63f4db544.png)
+ ![image](https://user-images.githubusercontent.com/57508332/198154666-c2932900-a9c5-4367-9f64-9e6bcf3d493a.png)
+ ![image](https://user-images.githubusercontent.com/57508332/198155438-46834027-0572-4d1a-a628-7d03f7f9a211.png)
 
 
