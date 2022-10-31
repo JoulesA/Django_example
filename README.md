@@ -123,3 +123,28 @@ manage.py makemigrations
 ```
 manage.py migrate
 ```
+
+Una vez se crean los modelos, estos se declaran en el programa `admin.py` de la app:
+```Python
+from django.contrib import admin
+from .models import *
+# Register your models here.
+admin.site.register(Libro)
+```
+
+### Usuario y contraseña de la base de datos
+Una vez se tiene la estructura se crea el usuario para la base de datos usando una terminal de python
+``` Terminal
+ & C:/Users/loboa/AppData/Local/Programs/Python/Python39/python.exe c:/Users/loboa/OneDrive/Documentos/SS/Tutorial/manage.py createsuperuser
+```
+Lo cual nos pedira un usuario, correo y contraseña.
+
+>[!Warning]
+>Aqui SQL puede der lata, si no esta bien configurado el puerto de la base de datos, si el servicio esta detenido en la maquina o si hay dos servicios entrando apor el mismo puerto.
+
+Despues de creado el usuario, se puede acceder a la base de datos con la ruta `/admin`
+
+![image](https://user-images.githubusercontent.com/57508332/199045344-c8ae5d34-eb40-4d77-839e-59425de9673a.png)
+![image](https://user-images.githubusercontent.com/57508332/199045476-bac43550-b75b-47c4-89a6-6e1a29e16491.png)
+
+
